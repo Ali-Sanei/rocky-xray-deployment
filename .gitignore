@@ -1,0 +1,27 @@
+# Real Xray configuration and secrets
+config.json
+**/config.json
+*.env
+.env
+.env.*
+
+# Private keys and credentials
+*.key
+*.pem
+id_ed25519
+id_rsa
+authorized_keys
+
+# Backups and archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*backup*
+backups/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
